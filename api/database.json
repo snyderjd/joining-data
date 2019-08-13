@@ -1,24 +1,60 @@
 {
-  "posts": [
+  "employees": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Curtis",
+      "departmentId": 1,
+      "computerId": 1
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Humberto",
+      "departmentId": 1,
+      "computerId": 2
+    },
+    {
+      "id": 3,
+      "name": "Sarah",
+      "departmentId": 2,
+      "computerId": 3
+    },
+    {
+      "id": 4,
+      "name": "Noah",
+      "departmentId": 2,
+      "computerId": 4
     }
   ],
-  "comments": [
+  "departments": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "department": "Sales"
+    },
+    {
+      "id": 2,
+      "department": "Finance"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "computers": [
+    {
+      "id": 1,
+      "make": "Dell"
+    },
+    {
+      "id": 2,
+      "make": "Apple"
+    },
+    {
+      "id": 3,
+      "make": "Microsoft"
+    },
+    {
+      "id": 4,
+      "make": "Apple"
+    },
+    {
+      "id": 5,
+      "make": "Dell"
+    }
+  ]
 }
